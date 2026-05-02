@@ -1,0 +1,11 @@
+0.1.1 - Patch 1
+---------------------
+- Adding build pkgmeta to the repository, testing build tags
+- Add this change log
+- Add text license
+
+---------------------
+
+0.1.0 - Initial release
+---------------------
+- Basic version of the addon, demonstrates the idea and value

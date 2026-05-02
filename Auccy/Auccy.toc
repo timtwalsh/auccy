@@ -1,0 +1,16 @@
+## Interface: 20505
+## Title: Auccy
+## Notes: Spend less time SEARCHING... in the Auction house.
+## Author: walsh#11465, Walshie on Dreamscythe
+## Version: 0.1.0
+## SavedVariables: AuccyDB
+## IconTexture: Interface\Icons\inv_misc_coin_01
+
+# Core
+Data\ItemDatabase.lua
+Core\Utils.lua
+Auccy.lua
+
+# UI
+UI\MainFrame.lua
+UI\GuidedBrowser.lua

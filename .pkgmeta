@@ -1,6 +1,3 @@
 package-as: Auccy
-enable-nolib-creation: true
-url: https://github.com/timtwalsh/auccy.git
-tag: 0.1.0
 manual-changelog: CHANGELOG.txt
 license-output: LICENSE.txt

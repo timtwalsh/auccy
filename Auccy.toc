@@ -2,7 +2,7 @@
 ## Title: Auccy
 ## Notes: Spend less time SEARCHING... in the Auction house.
 ## Author: walsh#11465, Walshie on Dreamscythe
-## Version: 0.1.0
+## Version: @project-version@
 ## SavedVariables: AuccyDB
 ## IconTexture: Interface\Icons\inv_misc_coin_01
 

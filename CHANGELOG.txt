@@ -1,11 +1,15 @@
-0.1.1 - Patch 1
+0.1.2 - camera stuck bug fix
+---------------------
+- Fixes an issue where the left mouse button would be stuck "down" when closing the auctionhouse while dragging Auccy.
+
+---------------------
+0.1.1 - Flatten and Release
 ---------------------
 - Adding build pkgmeta to the repository, testing build tags
 - Add this change log
 - Add text license
 
 ---------------------
-
 0.1.0 - Initial release
 ---------------------
 - Basic version of the addon, demonstrates the idea and value

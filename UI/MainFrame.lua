@@ -88,6 +88,7 @@ function UI:CreateMainFrame()
     f:RegisterForDrag("LeftButton")
     f:SetScript("OnDragStart", f.StartMoving)
     f:SetScript("OnDragStop", f.StopMovingOrSizing)
+    f:SetScript("OnHide", f.StopMovingOrSizing)
     f:SetClampedToScreen(true)
 
     -- Classic Blizzard Backdrop (Solid Dark Stone)

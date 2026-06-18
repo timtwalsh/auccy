@@ -120,6 +120,7 @@ function UI:CreateMainFrame()
     local mascotFrame = CreateFrame("Frame", nil, f)
     mascotFrame:SetAllPoints(f)
     mascotFrame:SetFrameLevel(f:GetFrameLevel() + 50) -- High above everything else
+    f.MascotFrame = mascotFrame
 
     -- Mascot Texture
     local mascot = mascotFrame:CreateTexture(nil, "OVERLAY", nil, 7)
@@ -198,4 +199,15 @@ function UI:CreateMainFrame()
 
     f:Hide()
     return f
+end
+
+function UI:ApplyAvatarVisibility()
+    if not self.MainFrame then return end
+    if AuccyDB and AuccyDB.showAvatar then
+        if self.MainFrame.MascotFrame then self.MainFrame.MascotFrame:Show() end
+        if self.MainFrame.Bubble then self.MainFrame.Bubble:Show() end
+    else
+        if self.MainFrame.MascotFrame then self.MainFrame.MascotFrame:Hide() end
+        if self.MainFrame.Bubble then self.MainFrame.Bubble:Hide() end
+    end
 end

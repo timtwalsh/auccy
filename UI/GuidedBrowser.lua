@@ -38,6 +38,7 @@ function UI:CreateGuidedBrowser(parent)
 end
 
 function UI:UpdateTip(text)
+    if not (AuccyDB and AuccyDB.showAvatar) then return end
     if self.MainFrame and self.MainFrame.Tip then
         self.MainFrame.Tip:SetText(text)
         
